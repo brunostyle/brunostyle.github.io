@@ -154,17 +154,6 @@ header {
     margin-bottom: 2em;
 }
 
-/* .titulo::after {
-    content: "";
-    background: var(--color_letra_secundario);
-    display: block;
-    width: 20%;
-    height: 3px;
-    bottom: 0;
-    margin: auto;
-    margin-top: 10px;
-} */
-
 .boton {
     background: var(--color_seleccionado);
     color: var(--color_letra);
