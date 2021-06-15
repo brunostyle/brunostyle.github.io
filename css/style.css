@@ -191,6 +191,17 @@ header {
     font-weight: bold;
 }
 
+.acerca-de__boton {
+    display: block;
+    padding: .6em 2em;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.acerca-de__boton i {
+    margin-right: .5em;
+}
+
 .acerca-de__experiencia {
     display: flex;
     justify-content: space-between;
@@ -631,12 +642,12 @@ footer {
     z-index: 1000;
     bottom: 2.5em;
     right: 2.5em;
-    transform: scale(0);
+    opacity: 0;
     transition: 300ms all ease;
 }
 
 .boton__subir.active {
-    transform: scale(1);
+    opacity: 1;
 }
 
 .boton__subir:hover {
@@ -722,6 +733,6 @@ footer {
     }
 
     .grid .item {
-        width: calc(50% - 20px);
+        width: calc(50.000000% - 20px);
     }
 }

@@ -12,19 +12,19 @@
 <body>
 
     <!--------------------------------------------|ENCABEZADO|-------------------------------------------->
-    <header id="1">
+    <header id="inicio">
         <nav class="menu" id="menu">
             <div class="menu__logo-boton">
                 <a href="index.html"><img class="menu__logo" src="img/logo.png" alt="logo"></a>
                 <img class="menu__boton" id="menu-boton" src="img/menu.png" alt="menu">
             </div>
             <ul class="menu__lista" id="menu-lista">
-                <li class="menu__lista__opcion"><a class="activo" href="#1">Inicio</a></li>
-                <li class="menu__lista__opcion"><a href="#2">Acerca de</a></li>
-                <li class="menu__lista__opcion"><a href="#3">Habilidades</a></li>
-                <li class="menu__lista__opcion"><a href="#4">Educacion</a></li>
-                <li class="menu__lista__opcion"><a href="#5">Portafolio</a></li>
-                <li class="menu__lista__opcion"><a href="#6">Servicios</a></li>
+                <li class="menu__lista__opcion"><a class="activo" href="#inicio">Inicio</a></li>
+                <li class="menu__lista__opcion"><a href="#acerca-de">Acerca de</a></li>
+                <li class="menu__lista__opcion"><a href="#habilidades">Habilidades</a></li>
+                <li class="menu__lista__opcion"><a href="#educacion">Educacion</a></li>
+                <li class="menu__lista__opcion"><a href="#portafolio">Portafolio</a></li>
+                <li class="menu__lista__opcion"><a href="#servicios">Servicios</a></li>
             </ul>
         </nav>
         <div class="presentacion">
@@ -39,7 +39,7 @@
 
     <div class="contenedor">
         <!--------------------------------------------|ACERCA DE|-------------------------------------------->
-        <section class="acerca-de seccion" id="2">
+        <section class="acerca-de seccion" id="acerca-de">
             <h3 class="titulo">Acerca de</h3>
             <h3 class="subtitulo">Mi introducción</h3>
             <div class="acerca-de__contenedor">
@@ -61,12 +61,12 @@
                         <h5 class="acerca-de__descripcion">horas trabajadas</h5>
                     </div>
                 </div>
-                <button class="boton">Descargar CV</button>
+                <a href="img/CV/cv_bruno.pdf" class="acerca-de__boton boton" download="cv_bruno.pdf"><i class="fas fa-file-alt"></i>Descargar CV</a>
             </div>
         </section>
 
         <!--------------------------------------------|HABILIDADES|-------------------------------------------->
-        <section class="habilidades seccion" id="3">
+        <section class="habilidades seccion" id="habilidades">
             <h2 class="titulo">Habilidades</h2>
             <h3 class="subtitulo">Mi nivel tecnico</h3>
             <div class="habilidades__contenedor">
@@ -169,7 +169,7 @@
         </section>
 
         <!--------------------------------------------|EDUCACION|-------------------------------------------->
-        <section class="educacion seccion" id="4">
+        <section class="educacion seccion" id="educacion">
             <h2 class="titulo">Educacion</h2>
             <h3 class="subtitulo">Mi educación personal</h3>
             <div class="educacion__contenedor">
@@ -319,7 +319,7 @@
         </section>
 
         <!--------------------------------------------|PORTAFOLIO|-------------------------------------------->
-        <section class="portafolio seccion" id="5">
+        <section class="portafolio seccion" id="portafolio">
             <div class="portafolio__header">
                 <div class="portafolio__logo">
                     <h2 class="titulo">Portafolio</h2>
@@ -334,99 +334,99 @@
             </div>
 
             <div class="grid" id="grid">
-                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web inpirada en el fondo del mar">
+                <div class="item" data-categoria="paginas web">
                     <div class="item-contenido">
                         <img src="img/trabajos/page-1.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina web inpirada en el fondo del mar</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="otros" data-descripcion="Pagina web sobre preguntas frequentes">
+                <div class="item" data-categoria="otros">
                     <div class="item-contenido">
                         <img src="img/trabajos/otras-1.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina web sobre preguntas frequentes</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="paginas web" data-descripcion="Pagina azul">
+                <div class="item" data-categoria="paginas web">
                     <div class="item-contenido">
                         <img src="img/trabajos/page-2.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina azul</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web con buscador integrado">
+                <div class="item" data-categoria="paginas web">
                     <div class="item-contenido">
                         <img src="img/trabajos/page-3.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina web con buscador integrado</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web inpirada en Spotify">
+                <div class="item" data-categoria="paginas web">
                     <div class="item-contenido">
                         <img src="img/trabajos/page-4.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina web inpirada en Spotify</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="otros" data-descripcion="Aplicacion para calcular presupuesto">
+                <div class="item" data-categoria="otros">
                     <div class="item-contenido">
                         <img src="img/trabajos/otras-2.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Aplicacion para calcular presupuesto</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="lista de tareas" data-descripcion="Aplicacion para listar tareas">
+                <div class="item" data-categoria="lista de tareas">
                     <div class="item-contenido">
                         <img src="img/trabajos/to-do-list-2.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Aplicacion para listar tareas</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web con galeria de imagenes">
+                <div class="item" data-categoria="paginas web">
                     <div class="item-contenido">
                         <img src="img/trabajos/page-5.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina web con galeria de imagenes</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="otros" data-descripcion="Aplicacion basada en un temario">
+                <div class="item" data-categoria="otros">
                     <div class="item-contenido">
                         <img src="img/trabajos/otras-3.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Aplicacion basada en un temario</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="lista de tareas" data-descripcion="Aplicacion para listar tareas">
+                <div class="item" data-categoria="lista de tareas">
                     <div class="item-contenido">
                         <img src="img/trabajos/to-do-list-1.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Aplicacion para listar tareas</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web con diseño entre cortado">
+                <div class="item" data-categoria="paginas web">
                     <div class="item-contenido">
                         <img src="img/trabajos/page-6.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina web con diseño entre cortado</h3>
                         </div>
                     </div>
                 </div>
-                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web modo dark">
+                <div class="item" data-categoria="paginas web">
                     <div class="item-contenido">
                         <img src="img/trabajos/page-7.png" alt="">
-                        <div class="item-tarjeta" id="overlay">
-                            <h3 class="descripcion"></h3>
+                        <div class="item-tarjeta">
+                            <h3 class="descripcion">Pagina web modo dark</h3>
                         </div>
                     </div>
                 </div>
@@ -434,7 +434,7 @@
         </section>
 
         <!--------------------------------------------|CONTACTO|-------------------------------------------->
-        <section class="servicios seccion" id="6">
+        <section class="servicios seccion" id="servicios">
             <h3 class="titulo">Servicios</h3>
             <h3 class="subtitulo">Servicios que ofrezco a mis clientes</h3>
             <div class="servicios__contenedor">
