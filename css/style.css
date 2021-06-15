@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 html {
@@ -473,7 +474,7 @@ header {
     padding: 0;
     margin: 10px;
     width: calc(33.333333% - 20px);
-    border-radius: 20px;
+    border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
     opacity: .4;
@@ -547,6 +548,7 @@ header {
     width: 100%;
     background: var(--color_fondo_opaco);
     color: var(--color_letra_primario_opaco);
+    border-radius: 5px;
     padding: 1.2em;
     text-align: center;
     text-decoration: none;
@@ -693,7 +695,7 @@ footer {
     }
 
     .footer__contenedor {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         grid-template-areas: "footer__informacion footer__informacion"
                              "footer__redes footer__contacto";
     }
