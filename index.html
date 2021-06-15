@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio - Bruno Millalipe</title>
+</head>
+<body>
+
+    <!--------------------------------------------|ENCABEZADO|-------------------------------------------->
+    <header id="1">
+        <nav class="menu" id="menu">
+            <div class="menu__logo-boton">
+                <a href="index.html"><img class="menu__logo" src="img/logo.png" alt="logo"></a>
+                <img class="menu__boton" id="menu-boton" src="img/menu.png" alt="menu">
+            </div>
+            <ul class="menu__lista" id="menu-lista">
+                <li class="menu__lista__opcion"><a class="activo" href="#1">Inicio</a></li>
+                <li class="menu__lista__opcion"><a href="#2">Acerca de</a></li>
+                <li class="menu__lista__opcion"><a href="#3">Habilidades</a></li>
+                <li class="menu__lista__opcion"><a href="#4">Educacion</a></li>
+                <li class="menu__lista__opcion"><a href="#5">Portafolio</a></li>
+                <li class="menu__lista__opcion"><a href="#6">Servicios</a></li>
+            </ul>
+        </nav>
+        <div class="presentacion">
+            <div class="presentacion__contenedor">
+                <h3 class="presentacion__subtitulo">Hola soy</h3>
+                <h1 class="presentacion__titulo">Bruno Millalipe</h1>
+                <h3 class="presentacion__subtitulo">-Desarollador Web-</h3>
+            </div>
+        </div>
+        <div class="filtro"></div>
+    </header>
+
+    <div class="contenedor">
+        <!--------------------------------------------|ACERCA DE|-------------------------------------------->
+        <section class="acerca-de seccion" id="2">
+            <h3 class="titulo">Acerca de</h3>
+            <h3 class="subtitulo">Mi introducción</h3>
+            <div class="acerca-de__contenedor">
+                <img class="acerca-de__imagen" src="img/bruno.jpg" alt="bruno">
+                <p class="acerca-de__parrafo">
+                    Soy un desarrollador web, con amplios conocimientos y años de experiencia, trabajando en tecnologías web y diseño UI / UX, entregando trabajos de calidad.
+                </p>
+                <div class="acerca-de__experiencia">
+                    <div>
+                        <h4 class="acerca-de__horas">05+</h4>
+                        <h5 class="acerca-de__descripcion">Años de experiencia</h5>
+                    </div>
+                    <div>
+                        <h4 class="acerca-de__horas">20+</h4>
+                        <h5 class="acerca-de__descripcion">proyectos terminados</h5>
+                    </div>
+                    <div>
+                        <h4 class="acerca-de__horas">500+</h4>
+                        <h5 class="acerca-de__descripcion">horas trabajadas</h5>
+                    </div>
+                </div>
+                <button class="boton">Descargar CV</button>
+            </div>
+        </section>
+
+        <!--------------------------------------------|HABILIDADES|-------------------------------------------->
+        <section class="habilidades seccion" id="3">
+            <h2 class="titulo">Habilidades</h2>
+            <h3 class="subtitulo">Mi nivel tecnico</h3>
+            <div class="habilidades__contenedor">
+                <div class="habilidades__contenido habilidad__abierta">
+                    <div class="habilidades__header boton activo">
+                        <i class="fas fa-code habilidades__icono"></i>
+                        <div>
+                            <h2 class="habilidades__titulo">Frontend Developer</h2>
+                        </div>
+                        <i class="fas fa-angle-down habilidades__icono"></i>
+                    </div>
+                    <div class="habilidades__lista">
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">HTML</h3>
+                                <span class="habilides__numero">95%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__html"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">CSS</h3>
+                                <span class="habilides__numero">90%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__css"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">JavaScript</h3>
+                                <span class="habilides__numero">60%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__js"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">React</h3>
+                                <span class="habilides__numero">50%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__react"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidades__contenido habilidad__cerrada">
+                    <div class="habilidades__header boton">
+                        <i class="fas fa-database habilidades__icono"></i>
+                        <div>
+                            <h2 class="habilidades__titulo">Backend Developer</h2>
+                        </div>
+                        <i class="fas fa-angle-down habilidades__icono"></i>
+                    </div>
+                    <div class="habilidades__lista">
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">Java</h3>
+                                <span class="habilides__numero">70%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__java"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">C</h3>
+                                <span class="habilides__numero">80%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__c"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">Node JS</h3>
+                                <span class="habilides__numero">40%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__node"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__datos">
+                            <div class="habilidades__titulos">
+                                <h3 class="habilidades__nombre">SQL Server</h3>
+                                <span class="habilides__numero">90%</span>
+                            </div>
+                            <div class="habilidades__barra">
+                                <span class="habilidades__porcentaje habilidades__sql"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------|EDUCACION|-------------------------------------------->
+        <section class="educacion seccion" id="4">
+            <h2 class="titulo">Educacion</h2>
+            <h3 class="subtitulo">Mi educación personal</h3>
+            <div class="educacion__contenedor">
+                <div class="educacion__pestana">
+                    <div class="educacion__boton boton educacion__activa" data-target="#educacion">
+                        <i class="fas fa-user-graduate educacion__icono"></i>
+                        Educacion
+                    </div>
+                    <div class="educacion__boton boton" data-target="#cursos">
+                        <i class="fas fa-book educacion__icono"></i>
+                        Cursos
+                    </div>
+                </div>
+                <div class="educacion__secciones">
+                    <!--====================|EDUCACION CONTENIDO 1|====================-->
+                    <div class="educacion__contenido educacion__activa" data-content id="educacion">
+                        <!--==========|EDUCACION 1|==========-->
+                        <div class="educacion__datos">
+                            <div>
+                                <h3 class="educacion__titulo">Escuela Primaria Nº 35</h3>
+                                <span class="educacion__subtitulo">Gobernador Costa - Chubut</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2006 - 2011
+                                </div>
+                            </div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                                <span class="educacion__linea"></span>
+                            </div>
+                            <div></div>
+                        </div>
+                        <!--==========|EDUCACION 2|==========-->
+                        <div class="educacion__datos">
+                            <div></div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                                <span class="educacion__linea"></span>
+                            </div>
+                            <div>
+                                <h3 class="educacion__titulo">Escuela Secundaria N° 719 "Peñihue"</h3>
+                                <span class="educacion__subtitulo">Gobernador Costa - Chubut</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2012 - 2019
+                                </div>
+                            </div>
+                        </div>
+                        <!--==========|EDUCACION 3|==========-->
+                        <div class="educacion__datos">
+                            <div>
+                                <h3 class="educacion__titulo">Universidad del Chubut</h3>
+                                <span class="educacion__subtitulo">Rawson - Chubut</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2020 - 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <!--====================|EDUCACION CONTENIDO 2|====================-->
+                    <div class="educacion__contenido" data-content id="cursos">
+                        <!--==========|EDUCACION 1|==========-->
+                        <div class="educacion__datos">
+                            <div>
+                                <h3 class="educacion__titulo">HTML and CSS</h3>
+                                <span class="educacion__subtitulo">Udemy Courses</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2016 - 2017
+                                </div>
+                            </div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                                <span class="educacion__linea"></span>
+                            </div>
+                        </div>
+                        <!-- <!--==========|EDUCACION 2|==========-->
+                        <div class="educacion__datos">
+                            <div></div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                                <span class="educacion__linea"></span>
+                            </div>
+                            <div>
+                                <h3 class="educacion__titulo">JavaScript</h3>
+                                <span class="educacion__subtitulo">Platzi</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2017 - 2019
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <!--==========|EDUCACION 3|==========-->
+                        <div class="educacion__datos">
+                            <div>
+                                <h3 class="educacion__titulo">React and Firebase</h3>
+                                <span class="educacion__subtitulo">Udemy Courses</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2019 - 2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                                <span class="educacion__linea"></span>
+                            </div>
+                        </div>
+                        <!--==========|EDUCACION 4|==========-->
+                        <div class="educacion__datos">
+                            <div></div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                                <span class="educacion__linea"></span>
+                            </div>
+                            <div>
+                                <h3 class="educacion__titulo">Bases de Datos Relacionales</h3>
+                                <span class="educacion__subtitulo">Platzi</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2020 - 2021
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <!--==========|EDUCACION 5|==========-->
+                        <div class="educacion__datos">
+                            <div>
+                                <h3 class="educacion__titulo">PostgreSQL</h3>
+                                <span class="educacion__subtitulo">Udemy Courses</span>
+                                <div class="educacion__calendario">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2020 - 2021
+                                </div>
+                            </div>
+                            <div>
+                                <span class="educacion__redondel"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------|PORTAFOLIO|-------------------------------------------->
+        <section class="portafolio seccion" id="5">
+            <div class="portafolio__header">
+                <div class="portafolio__logo">
+                    <h2 class="titulo">Portafolio</h2>
+                    <h3 class="subtitulo">Galeria de trabajos</h3>
+                </div>
+                <div class="categorias" id="categorias">
+                    <a href="#" class="activo">Todos</a>
+                    <a href="#">Paginas Web</a>
+                    <a href="#">Lista de tareas</a>
+                    <a href="#">Otros</a>
+                </div>
+            </div>
+
+            <div class="grid" id="grid">
+                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web inpirada en el fondo del mar">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/page-1.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="otros" data-descripcion="Pagina web sobre preguntas frequentes">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/otras-1.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="paginas web" data-descripcion="Pagina azul">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/page-2.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web con buscador integrado">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/page-3.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web inpirada en Spotify">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/page-4.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="otros" data-descripcion="Aplicacion para calcular presupuesto">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/otras-2.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="lista de tareas" data-descripcion="Aplicacion para listar tareas">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/to-do-list-2.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web con galeria de imagenes">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/page-5.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="otros" data-descripcion="Aplicacion basada en un temario">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/otras-3.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="lista de tareas" data-descripcion="Aplicacion para listar tareas">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/to-do-list-1.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web con diseño entre cortado">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/page-6.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-categoria="paginas web" data-descripcion="Pagina web modo dark">
+                    <div class="item-contenido">
+                        <img src="img/trabajos/page-7.png" alt="">
+                        <div class="item-tarjeta" id="overlay">
+                            <h3 class="descripcion"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------|CONTACTO|-------------------------------------------->
+        <section class="servicios seccion" id="6">
+            <h3 class="titulo">Servicios</h3>
+            <h3 class="subtitulo">Servicios que ofrezco a mis clientes</h3>
+            <div class="servicios__contenedor">
+                <a class="servicios__forma" href="#">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3 class="titulo__mediano">Diseño responsivo</h3>
+                    <p class="servicios__subtitulo">Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de escritorio, tabletas y teléfonos móviles.</p>
+                </a>
+                <a class="servicios__forma" href="#">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3 class="titulo__mediano">Diseño creativo</h3>
+                    <p class="servicios__subtitulo">Un buen y atractivo diseño web lo ayuda a mantener sus clientes potenciales en su sitio, que es la cara digital de su negocio.</p>
+                </a>
+                <a class="servicios__forma" href="#">
+                    <i class="fas fa-thumbs-up"></i>
+                    <h3 class="titulo__mediano">Integración de redes sociales</h3>
+                    <p class="servicios__subtitulo">Existen muchas plataformas sociales, y debe promover su presencia en ellas en su sitio web.</p>
+                </a>
+                <a class="servicios__forma" href="#">
+                    <i class="fas fa-search-plus"></i>
+                    <h3 class="titulo__mediano">SEO</h3>
+                    <p class="servicios__subtitulo">Optimizaré su sitio con una estrategia inteligente de optimización de motores de búsqueda para generar clientes potenciales.</p>
+                </a>
+                <a class="servicios__forma" href="#">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3 class="titulo__mediano">Buena performance</h3>
+                    <p class="servicios__subtitulo">Retener a los usuarios es fundamental para mejorar las conversiones. Los sitios de alto rendimiento atraen y retienen a los usuarios</p>
+                </a>
+                <a class="servicios__forma" href="#">
+                    <i class="fas fa-code"></i>
+                    <h3 class="titulo__mediano">Desarollo</h3>
+                    <p class="servicios__subtitulo">Conozco la importancia del diseño web y puedo ayudarte a crear un sitio web que te guste.</p>
+                </a>
+            </div>
+        </section> 
+    </div>
+
+    <!--------------------------------------------|BOTON SUBIR|-------------------------------------------->
+    <button id="boton__subir" class="boton__subir" role="button">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!--------------------------------------------|FOOTER|-------------------------------------------->
+    <footer>
+        <div class="footer__contenedor">
+            <div class="footer__informacion">
+                <h3 class="titulo__mediano">Informacion del desarollador</h3>
+                <p class="footer__parrafo">Soy un desarrollador web, con amplios conocimientos y años de experiencia, trabajando en tecnologías web y diseño UI / UX, entregando trabajos de calidad.</p>
+            </div>
+            <div class="footer__redes">
+                <h3 class="titulo__mediano">Redes sociales</h3>
+                <a href="https://www.facebook.com/bruno.millalipe" class="footer__enlace" target="_BLANK"><i class="fab fa-facebook-f"></i>Seguime en Facebook</a>
+                <a href="https://www.instagram.com/bruno.14" class="footer__enlace" target="_BLANK"><i class="fab fa-instagram"></i>Seguime en Instagram</a>
+                <a href="#" class="footer__enlace"><i class="fab fa-linkedin-in"></i>Seguime en Linkedin</a>
+            </div>
+            <div class="footer__contacto">
+                <h3 class="titulo__mediano">Informacion de contacto</h3>
+                <a href="#" class="footer__enlace"><i class="fas fa-home"></i>Chubut - Argentina</a>
+                <a href="#" class="footer__enlace"><i class="fas fa-mobile-alt"></i>+54 2945-581626</a>
+                <a href="#" class="footer__enlace"><i class="far fa-envelope"></i>brunobrianmillalipe@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p class="copyright__parrafo">© Bruno Millalipe - Todos los derechos reservados</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e76250a593.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/btn-up.js"></script>
+    <script src="js/habilidades.js"></script>
+    <script src="js/educacion.js"></script>
+    <script src="js/portafolio.js"></script>
+</body>
+</html>
