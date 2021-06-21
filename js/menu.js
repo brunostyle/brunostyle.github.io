@@ -20,3 +20,25 @@ botones.forEach((elemento) => {
         menuLista.classList.remove('activo');
     })
 });
+
+/* ACTIVO EL LINK CUANDO EL SCROLL ESTE ENCIMA DE UNA SECCION */
+
+let sections = document.querySelectorAll('section[id]');
+
+function scrollActive () {
+    let scrollY = window.pageYOffset;
+
+    sections.forEach(current => {
+        let sectionHeight = current.offsetHeight;
+        let sectionTop = current.offsetTop - 50;
+        sectionId = current.getAttribute('id');
+        
+        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+            document.querySelector('.menu__lista__opcion a[href*=' + sectionId + ']').classList.add('activo');
+        } else {
+            document.querySelector('.menu__lista__opcion a[href*=' + sectionId + ']').classList.remove('activo');
+        }
+    });
+}
+
+window.addEventListener('scroll', scrollActive);
