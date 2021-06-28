@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
     <title>Portafolio - Bruno Millalipe</title>
@@ -48,7 +49,7 @@
                 <img class="acerca-de__imagen" src="img/bruno.jpg" alt="bruno">
                 <p class="acerca-de__parrafo">
                     Soy un desarrollador web, con amplios conocimientos y años de experiencia, trabajando en tecnologías web y diseño UI / UX, entregando trabajos de calidad.
-                </p>
+                </p> 
                 <div class="acerca-de__experiencia">
                     <div>
                         <h4 class="acerca-de__horas">05+</h4>
@@ -322,117 +323,53 @@
 
         <!--------------------------------------------|PORTAFOLIO|-------------------------------------------->
         <section class="portafolio seccion" id="portafolio">
-            <div class="portafolio__header">
-                <div class="portafolio__logo">
-                    <h2 class="titulo">Portafolio</h2>
-                    <h3 class="subtitulo">Galeria de trabajos</h3>
-                </div>
-                <div class="categorias" id="categorias">
-                    <a href="#" class="activo">Todos</a>
-                    <a href="#">Paginas Web</a>
-                    <a href="#">Lista de tareas</a>
-                    <a href="#">Otros</a>
-                </div>
-            </div>
+            <h2 class="titulo">Portafolio</h2>            
+            <h3 class="subtitulo">Galeria de trabajos</h3>
 
-            <div class="grid" id="grid">
-                <div class="item" data-categoria="paginas web">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/page-1.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina web inpirada en el fondo del mar</h3>
+            <div class="portafolio__contenedor swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="portafolio__tarjeta swiper-slide">
+                        <img src="img/trabajos/1.jpg" alt="" class="portafolio__img">
+                        <div class="portafolio__data">
+                            <div class="portafolio__titulo">Travel</div>
+                            <span class="portafolio__descripcion">Pagina de viajes</span>
                         </div>
+                        <a class="portafolio__boton" href="#"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portafolio__tarjeta swiper-slide">
+                        <img src="img/trabajos/2.jpg" alt="" class="portafolio__img">
+                        <div class="portafolio__data">
+                            <div class="portafolio__titulo">Christmas Gift</div>
+                            <span class="portafolio__descripcion">Pagina para regalar gifts de la navidad</span>
+                        </div>
+                        <a class="portafolio__boton" href="https://brunostyle.github.io/christmas-gift"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portafolio__tarjeta swiper-slide">
+                        <img src="img/trabajos/3.jpg" alt="" class="portafolio__img">
+                        <div class="portafolio__data">
+                            <div class="portafolio__titulo">Spotify Gift</div>
+                            <span class="portafolio__descripcion">Pagina para regalar gifts de Spotify</span>
+                        </div>
+                        <a class="portafolio__boton" href="#"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portafolio__tarjeta swiper-slide">
+                        <img src="img/trabajos/4.png" alt="" class="portafolio__img">
+                        <div class="portafolio__data">
+                            <div class="portafolio__titulo">Football Skills</div>
+                            <span class="portafolio__descripcion">Pagina sobre jugadores de Futbol</span>
+                        </div>
+                        <a class="portafolio__boton" href="#"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portafolio__tarjeta swiper-slide">
+                        <img src="img/trabajos/5.jpg" alt="" class="portafolio__img">
+                        <div class="portafolio__data">
+                            <div class="portafolio__titulo">Country Travel</div>
+                            <span class="portafolio__descripcion">Pagina sobre los principales paises del mundo</span>
+                        </div>
+                        <a class="portafolio__boton" href="#"><i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="item" data-categoria="otros">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/otras-1.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina web sobre preguntas frequentes</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="paginas web">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/page-2.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina azul</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="paginas web">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/page-3.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina web con buscador integrado</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="paginas web">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/page-4.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina web inpirada en Spotify</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="otros">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/otras-2.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Aplicacion para calcular presupuesto</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="lista de tareas">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/to-do-list-2.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Aplicacion para listar tareas</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="paginas web">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/page-5.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina web con galeria de imagenes</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="otros">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/otras-3.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Aplicacion basada en un temario</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="lista de tareas">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/to-do-list-1.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Aplicacion para listar tareas</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="paginas web">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/page-6.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina web con diseño entre cortado</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" data-categoria="paginas web">
-                    <div class="item-contenido">
-                        <img src="img/trabajos/page-7.png" alt="">
-                        <div class="item-tarjeta">
-                            <h3 class="descripcion">Pagina web modo dark</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>            
         </section>
 
         <!--------------------------------------------|CONTACTO|-------------------------------------------->
@@ -508,6 +445,7 @@
     <script src="https://kit.fontawesome.com/e76250a593.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
 	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/btn-up.js"></script>
     <script src="js/habilidades.js"></script>
