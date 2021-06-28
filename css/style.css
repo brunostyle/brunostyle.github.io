@@ -6,7 +6,7 @@
     --color_fondo_opaco: #252020;
     --color_subrayado: #c48a8a;
     --color_barra: #c48a8a;
-    --color_barra_porcentaje: #666666;
+    --color_barra_porcentaje: #0000ff;
     --color_seleccionado: #0000ff;
     --color_enlaze: #9b9b9b;
 }
@@ -419,8 +419,21 @@ header {
 
 .portafolio__data {
     position: absolute;
-    bottom: 1.5em;
-    left: 1em;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    opacity: 0;
+}
+
+.portafolio__tarjeta:hover .portafolio__data {
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(20px);
+    opacity: 1;
 }
 
 .portafolio__titulo,
@@ -444,7 +457,7 @@ header {
     transition: .3s ease all;
 }
 
-.portafolio__img:hover {
+.portafolio__tarjeta:hover .portafolio__img {
     transform: scale(1.1);
 }
 
@@ -453,12 +466,12 @@ header {
     top: 0;
     right: 0;
     opacity: 0;
-    background: rgba(0, 0, 255, .8);
+    background: rgba(0,0,0,.6);
     color: var(--color_letra);
     font-weight: bold;
     padding: .8em 1em;
     border-radius: 0 20px 0 20px;
-    transition: .5s ease all;
+    transition: .3s ease all;
 }
 
 .portafolio__tarjeta:hover .portafolio__boton {
