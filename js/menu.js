@@ -7,6 +7,7 @@ let menuLista = document.getElementById('menu-lista'),
 menuBoton.addEventListener('click', () => {
     menu.classList.toggle('activo');
     menuLista.classList.toggle('activo');
+    menuBoton.classList.toggle('menu-active');
 })
 
 let botones = document.querySelectorAll('.menu__lista__opcion a');
@@ -18,6 +19,7 @@ botones.forEach((elemento) => {
         });
         elemento.classList.add('activo');
         menuLista.classList.remove('activo');
+        menuBoton.classList.toggle('menu-active');
     })
 });
 
