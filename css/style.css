@@ -569,27 +569,13 @@ footer {
 }
 
 .footer__contenedor {
-    display: grid;
-    gap: 2em;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: "footer__informacion footer__redes footer__contacto";
-}
-
-.footer__informacion {
-    grid-area: footer__informacion;
-}
-.footer__redes {
-    grid-template-areas: footer__redes;
-}
-.footer__contacto {
-    grid-template-areas: footer__contacto;
+    text-align: center;    
 }
 
 .footer__parrafo {
     color: var(--color_letra_primario_opaco);
     font-size: .9em;
     font-weight: bold;
-    width: 80%;
 }
 
 .footer__enlace {
@@ -684,20 +670,6 @@ footer {
         display: flex;
     }
 
-    .footer__contenedor {
-        grid-template-columns: 50% 50%;
-        grid-template-areas: "footer__informacion footer__informacion"
-                             "footer__redes footer__contacto";
-    }
-
-    .footer__informacion {
-        text-align: center;
-    }
-
-    .footer__parrafo {
-        margin: auto;
-    }
-
 }
 
 @media screen and (max-width: 720px) {
@@ -735,13 +707,4 @@ footer {
     body {
         font-size: 12px;
     }
-
-    /* .portafolio {
-        max-width: 750px;
-    }
-    
-    .portafolio__tarjeta {
-        width: 250px;
-        height: 350px;
-    } */
 }
