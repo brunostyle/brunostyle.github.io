@@ -88,11 +88,13 @@
         padding: .5em;
         border-radius: 0 20px 0 20px;
         transition: var(--transition-normal);
-
+        
         &.active {
+            animation: leftright .5s;
             color: var(--text-color);
             background: var(--first-color);
         }
+        
     }
 }
 
@@ -399,6 +401,16 @@
     &.active::after {
         right: 0;
         left: unset;
+    }
+}
+
+//========== Animations ==========//
+@keyframes leftright {
+    0%{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    100%{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 }
 
