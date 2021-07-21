@@ -131,11 +131,14 @@ const paintPortfolio = data => {
         autoplay: true,
         grabCursor: true,
         centeredSlides: true,
-        slidesPerView: 2,
+        slidesPerView: "auto",
         loop: true,
         spaceBetween: 42,
         coverflowEffect: {
           rotate: 0
+        },
+        pagination: {
+          el: ".swiper-pagination",
         }
     });
 }
