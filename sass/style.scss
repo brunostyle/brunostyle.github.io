@@ -352,6 +352,9 @@
         display: flex;
         justify-content: center;
     }
+    &__card {
+        padding: 0 2em;
+    }
 }
 
 .copyright {
