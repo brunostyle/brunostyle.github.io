@@ -251,6 +251,7 @@
 
 .portfolio {
     &__container {
+        overflow: hidden;
         max-width: 900px;
         width: 90%;
         margin: auto;
@@ -344,6 +345,7 @@
 }
 
 .footer {
+    overflow: hidden;
     background-image: url("../img/general/texture.png"), linear-gradient(to top, var(--first-color-alt), #000);
     background-attachment: fixed;
     &__data {
