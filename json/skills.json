@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "skill": "HTML",
+        "porcentage": "100%",
+        "category": "frontend"
+    },
+    {
+        "id": 2,
+        "skill": "CSS",
+        "porcentage": "100%",
+        "category": "frontend"
+    },
+    {
+        "id": 3,
+        "skill": "JavaScript",
+        "porcentage": "100%",
+        "category": "frontend"
+    },
+    {
+        "id": 4,
+        "skill": "React",
+        "porcentage": "100%",
+        "category": "frontend"
+    },
+    {
+        "id": 5,
+        "skill": "Sass",
+        "porcentage": "90%",
+        "category": "frontend"
+    },
+    {
+        "id": 6,
+        "skill": "Node JS",
+        "porcentage": "80%",
+        "category": "backend"
+    },
+    {
+        "id": 7,
+        "skill": "Express JS",
+        "porcentage": "80%",
+        "category": "backend"
+    },
+    {
+        "id": 8,
+        "skill": "MongoDB",
+        "porcentage": "60%",
+        "category": "backend"
+    },
+    {
+        "id": 9,
+        "skill": "SQL Server",
+        "porcentage": "100%",
+        "category": "backend"
+    },
+    {
+        "id": 10,
+        "skill": "Java",
+        "porcentage": "50%",
+        "category": "backend"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "icon": "<i class='fas fa-mobile-alt'></i>",
+        "title": "Responsive design",
+        "description": "Your site will display correctly on any device, including desktop computers, tablets, and mobile phones."
+    },
+    {
+        "id": 2,
+        "icon": "<i class='fas fa-pencil-ruler'></i>",
+        "title": "Creative design",
+        "description": "Good, attractive web design helps you keep your potential customers on your site, which is the digital face of your business."
+    },
+    {
+        "id": 3,
+        "icon": "<i class='fas fa-thumbs-up'></i>",
+        "title": "Social media integration",
+        "description": "There are many social platforms, and you should promote your presence on them on your website."
+    },
+    {
+        "id": 4,
+        "icon": "<i class='fas fa-search-plus'></i>",
+        "title": "SEO",
+        "description": "I will optimize your site with a smart search engine optimization strategy to generate leads."
+    },
+    {
+        "id": 5,
+        "icon": "<i class='fas fa-tachometer-alt'></i>",
+        "title": "Good performance",
+        "description": "Retaining users is essential to improve conversions. High-performing sites attract and retain users"
+    },
+    {
+        "id": 6,
+        "icon": "<i class='fas fa-code'></i>",
+        "title": "Development",
+        "description": "I know the importance of web design and I can help you create a website that you like."
+    }
+]
