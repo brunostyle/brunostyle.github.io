@@ -1,315 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- ========== Icon ========== -->    
-    <link rel="icon" href="img/general/logo.png">
-
-    <!-- ========== Google Font ========== -->    
-    <link rel='preconnect' href='https://fonts.googleapis.com'>
-    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-    <link href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel='stylesheet'>
-    
-    <!-- ========== Style CSS ========== -->
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- ========== Swiper CSS ========== -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <title>Portfolio - Bruno Millalipe</title>
-</head>
-<body>
-
-    <header class="header">
-        <div class="header__container">
-            <div class="header__content">
-                <div class="header__logo">
-                    <img src="img/general/logo.png" alt="">
-                </div>
-                <div class="header__button" id="header-button"></div>
-            </div>
-            <ul class="header__menu" id="header-menu">
-                <li class="header__item"><a href="#home" class="header__link">Home</a></li>
-                <li class="header__item"><a href="#about" class="header__link">About Me</a></li>
-                <li class="header__item"><a href="#education" class="header__link">Education</a></li>
-                <li class="header__item"><a href="#skills" class="header__link">Skills</a></li>
-                <li class="header__item"><a href="#portfolio" class="header__link">Portfolio</a></li>
-                <li class="header__item"><a href="#services" class="header__link">Services</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <section class="home" id="home">
-        <div class="home__container">
-            <p class="description description--alt">Hello I am</p>
-            <h1 class="section-title section-title--alt">Bruno Millalipe</h1>
-            <p class="description description--alt">-Web Developer-</p>
-        </div>
-        <button class="switch" id="switch">
-            <span><i class="fas fa-moon"></i></span>
-            <span><i class="fas fa-sun"></i></span>
-        </button>
-    </section> 
- 
-    <section class="about section" id="about">
-        <h3 class="section-title">About Me</h3>
-        <p class="description">My introduction</p>
-        <div class="about__container container-small">
-            <div class="about__img">
-                <img class="about__photo" src="img/general/bruno.jpg" alt="">
-            </div>
-            <p class="description">I am a web developer, with extensive knowledge and years of experience, working in web technologies and UI / UX design, delivering quality work.</p>
-            <div class="about__content">
-                <div class="about__hours">
-                    <h3 class="section-title">05+</h3>
-                    <p class="description">years of experience</p>
-                </div>
-                <div class="about__hours">
-                    <h3 class="section-title">20+</h3>
-                    <p class="description">finished projects</p>
-                </div>
-                <div class="about__hours">
-                    <h3 class="section-title">1000+</h3>
-                    <p class="description">hours worked</p>
-                </div>
-            </div>
-            <a class="button" href="img/CV/cv_bruno.pdf" download="cv_bruno.pdf"><i class="fas fa-file-alt icon"></i>Download CV</a>
-        </div>
-    </section>
-
-    <section class="education section" id="education">
-        <h3 class="section-title">Education</h3>
-        <p class="description">My personal education</p>
-        <div class="education__container container">
-            <div class="education__buttons">
-                <button class="education__button button education active">
-                    <span><i class="fas fa-user-graduate"></i></span>
-                    <h3 class="title">Education</h3>
-                    <span><i class="icon-angle fas fa-angle-up"></i></span>
-                </button>
-                <button class="education__button button courses">
-                    <span><i class="fas fa-book"></i></span>
-                    <h3 class="title">Courses</h3>
-                    <span><i class="icon-angle fas fa-angle-up"></i></span>
-                </button>
-            </div>
-            <div class="education__list" id="container-education">
-                <div class="education__content container-small education active">
-                    <div class="education__data">
-                        <div>
-                            <h3 class="title">Escuela Primaria Nº 35</h3>
-                            <p class="description">Gobernador Costa - Chubut</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2006 - 2011</span>
-                        </div>
-                        <div>
-                            <span class="education__redondel"></span>
-                            <span class="education__line"></span>
-                        </div>
-                        <div></div>
-                    </div>
-                    <div class="education__data">
-                        <div></div>
-                        <div>
-                            <span class="education__redondel"></span>
-                            <span class="education__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="title">Escuela Secundaria N° 719 "Peñihue"</h3>
-                            <p class="description">Gobernador Costa - Chubut</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2012 - 2019</span>
-                        </div>
-                    </div>
-                    <div class="education__data">
-                        <div>
-                            <h3 class="title">Universidad del Chubut</h3>
-                            <p class="description">Rawson - Chubut</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2020 - 2022</span>
-                        </div>
-                        <div>
-                            <span class="education__redondel"></span>
-                    </div
-                        <div></div>
-                    </div>
-                </div>
-
-                <div class="education__content container-small courses">
-                    <div class="education__data">
-                        <div>
-                            <h3 class="title">HTML and CSS</h3>
-                            <p class="description">Udemy Courses</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2016 - 2017</span>
-                        </div>
-                        <div>
-                            <span class="education__redondel"></span>
-                            <span class="education__line"></span>
-                        </div>
-                    </div>
-                    <div class="education__data">
-                        <div></div>
-                        <div>
-                            <span class="education__redondel"></span>
-                            <span class="education__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="title">JavaScript</h3>
-                            <p class="description">Platzi</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2017 - 2019</span>
-                        </div>
-                    </div>
-                    <div class="education__data">
-                        <div>
-                            <h3 class="title">React and Firebase</h3>
-                            <p class="description">Udemy Courses</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2019 - 2020</span>
-                        </div>
-                        <div>
-                            <span class="education__redondel"></span>
-                            <span class="education__line"></span>
-                        </div>
-                    </div>
-                    <div class="education__data">
-                        <div></div>
-                        <div>
-                            <span class="education__redondel"></span>
-                            <span class="education__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="title">Bases de Datos Relacionales</h3>
-                            <p class="description">Platzi</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2020 - 2021</span>
-                        </div>
-                    </div>
-                    <div class="education__data">
-                        <div>
-                            <h3 class="title">PostgreSQL</h3>
-                            <p class="description">Udemy Courses</p>
-                            <span class="description"><i class="icon icon--alt far fa-calendar-alt"></i>2020 - 2021</span>
-                        </div>
-                        <div>
-                            <span class="education__redondel"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="skills section" id="skills">
-        <h3 class="section-title">Skills</h3>
-        <p class="description">My technical level</p>
-        <div class="skills__container container">
-            <div class="skills__buttons">
-                <button class="skills__button button frontend active">
-                    <span><i class="fas fa-code"></i></span>
-                    <h3 class="title">Frontend</h3>
-                    <span><i class="icon-angle fas fa-angle-up"></i></span>
-                </button>
-                <button class="skills__button button backend">
-                    <span><i class="fas fa-database"></i></span>
-                    <h3 class="title">Backend</h3>
-                    <span><i class="icon-angle fas fa-angle-up"></i></span>
-                </button>
-            </div>
-            <div class="skills__list container-small" id="container-skills">
-                
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio section" id="portfolio">
-        <h3 class="section-title">Portfolio</h3>
-        <p class="description">Work Gallery</p>
-        <div class="portfolio__container swiper-container">
-            <div class="swiper-wrapper" id="container-portfolio">
-
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-    </section>
-
-    <section class="services section" id="services">
-        <h3 class="section-title">Services</h3>
-        <p class="description">Services that I offer to my clients</p>
-        <div class="services__container container-medium grid" id="container-services">
-        </div>
-    </section>
-  
-    <footer class="footer section">
-        <div class="footer__container container swiper-container">
-            <div class="swiper-wrapper">
-                <div class="footer__card swiper-slide">
-                    <h3 class="title title--alt">Developer Information</h3>
-                    <p class="description description--alt">I am a web developer, with extensive knowledge and years of experience, working in web technologies and UI / UX design, delivering quality work.</p>
-                </div>
-                <div class="footer__card swiper-slide">
-                    <h3 class="title title--alt">Social media</h3>
-                    <a href="https://www.facebook.com/bruno.millalipe" target="_BLANK" class="footer__data"><i class="icon fab fa-facebook-f"></i><p class="description description--alt">Follow me on Facebook</p></a>
-                    <a href="https://www.instagram.com/bruno.14" target="_BLANK" class="footer__data"><i class="icon fab fa-instagram"></i><p class="description description--alt">Follow me on Instagram</p></a>
-                    <a href="#" target="_BLANK" class="footer__data"><i class="icon fab fa-linkedin-in"></i><p class="description description--alt">Follow me on Linkedin</p></a>
-                </div>
-                <div class="footer__card swiper-slide">
-                    <h3 class="title title--alt">Contact information</h3>
-                    <div class="footer__data"><i class="icon fas fa-home"></i><p class="description description--alt">Chubut - Argentina</p></div>
-                    <div class="footer__data"><i class="icon fas fa-mobile-alt"></i><p class="description description--alt">+54 2945-581626</p></div>
-                    <div class="footer__data"><i class="icon far fa-envelope"></i><p class="description description--alt">brunomstyle@gmail.com</p></div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div class="copyright">
-        <p class="title">© Bruno Millalipe - All rights reserved</p>
-    </div>
-
-    <template id="template-skills">
-        <div class="skills__item">
-            <div class="skills__data">
-                <h3 class="skills__name title"></h3>
-                <span class="skills__number title"></span>
-            </div>
-            <div class="skills__bar">
-                <span class="skills__porcentage"></span>
-            </div>
-        </div>
-    </template>
-
-    <template id="template-portfolio">
-        <div class="portfolio__card swiper-slide">
-            <img src="" alt="" class="portfolio__img">
-            <div class="portfolio__data">
-                <div class="title title--alt"></div>
-                <span class="description description--alt"></span>
-            </div>
-            <a class="portfolio__button" href="" target="_blank"><i class="fas fa-arrow-right"></i></a>
-        </div>
-    </template>
-
-    <template id="template-services">
-        <div class="services__card">
-            <span class="icon--alt"></span>
-            <h3 class="title"></h3>
-            <p class="description"></p>
-        </div>
-    </template>
-    
-    <button class="button-up button" id="button-up">
-        <span><i class="fas fa-angle-up"></i></span>
-    </button>
-
-    <!-- ========== Font Awesome ========== -->
-    <script src='https://kit.fontawesome.com/e76250a593.js' crossorigin='anonymous'></script>
-    <!-- ========== Swiper JS ========== -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="./img/icono/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Bruno Millalipe | Portfolio</title>
+    <link href="static/css/2.f78674c2.chunk.css" rel="stylesheet" />
+    <link href="static/css/main.34dea679.chunk.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script
+      src="https://kit.fontawesome.com/e76250a593.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- ========== Menu ========== -->
-    <script src="js/menu.js"></script>
-    <!-- ========== Main ========== -->
-    <script src="js/main.js"></script>
-    <!-- ========== Theme ========== -->
-    <script src="js/theme.js"></script>
-
-
-</body>
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (
+            var n, l, f = r[0], i = r[1], p = r[2], c = 0, s = [];
+            c < f.length;
+            c++
+          )
+            (l = f[c]),
+              Object.prototype.hasOwnProperty.call(o, l) &&
+                o[l] &&
+                s.push(o[l][0]),
+              (o[l] = 0);
+          for (n in i)
+            Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]);
+          for (a && a(r); s.length; ) s.shift()();
+          return u.push.apply(u, p || []), t();
+        }
+        function t() {
+          for (var e, r = 0; r < u.length; r++) {
+            for (var t = u[r], n = !0, f = 1; f < t.length; f++) {
+              var i = t[f];
+              0 !== o[i] && (n = !1);
+            }
+            n && (u.splice(r--, 1), (e = l((l.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function l(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, l), (t.l = !0), t.exports;
+        }
+        (l.m = e),
+          (l.c = n),
+          (l.d = function (e, r, t) {
+            l.o(e, r) ||
+              Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (l.r = function (e) {
+            "undefined" != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+              Object.defineProperty(e, "__esModule", { value: !0 });
+          }),
+          (l.t = function (e, r) {
+            if ((1 & r && (e = l(e)), 8 & r)) return e;
+            if (4 & r && "object" == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if (
+              (l.r(t),
+              Object.defineProperty(t, "default", { enumerable: !0, value: e }),
+              2 & r && "string" != typeof e)
+            )
+              for (var n in e)
+                l.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n)
+                );
+            return t;
+          }),
+          (l.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return l.d(r, "a", r), r;
+          }),
+          (l.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (l.p = "/");
+        var f = (this.webpackJsonpportfolio = this.webpackJsonpportfolio || []),
+          i = f.push.bind(f);
+        (f.push = r), (f = f.slice());
+        for (var p = 0; p < f.length; p++) r(f[p]);
+        var a = i;
+        t();
+      })([]);
+    </script>
+    <script src="./static/js/2.95ff69f9.chunk.js"></script>
+    <script src="./static/js/main.8330ef90.chunk.js"></script>
+  </body>
 </html>
